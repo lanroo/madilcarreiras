@@ -2,20 +2,27 @@ import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { motion } from 'framer-motion';
-import logo from '../img/logo.jpg'; 
+import { useTranslation } from 'react-i18next'; // Importa o hook useTranslation
+import logo from '../img/logo.jpg';
 
 const Navbar = () => {
+  const { t, i18n } = useTranslation(); // Hook para tradução
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
 
   const links = [
-    { to: '/', label: 'Home' },
-    { to: '/about', label: 'About Us' },
-    { to: '/services', label: 'Services' },
-    { to: '/partners', label: 'Partners' },
-    { to: '/testimonials', label: 'Success Stories' },
-    { to: '/contact', label: 'Contact' },
+    { to: '/', label: t('navbar.home') },
+    { to: '/about', label: t('navbar.about') },
+    { to: '/services', label: t('navbar.services') },
+    { to: '/partners', label: t('navbar.partners') },
+    { to: '/testimonials', label: t('navbar.testimonials') },
+    { to: '/contact', label: t('navbar.contact') },
   ];
+
+  const changeLanguage = (lng: string) => {
+    i18n.changeLanguage(lng); // Altera o idioma
+  };
+  
 
   return (
     <nav className="bg-white shadow-lg fixed w-full z-50">
@@ -47,8 +54,25 @@ const Navbar = () => {
               to="/contact"
               className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition-colors duration-200"
             >
-              Get Started
+              {t('navbar.getStarted')}
             </Link>
+
+          </div>
+
+          {/* Language Switch */}
+          <div className="hidden md:flex items-center space-x-4">
+            <button
+              onClick={() => changeLanguage('en')}
+              className="text-gray-600 hover:text-blue-600 transition-colors duration-200"
+            >
+              EN
+            </button>
+            <button
+              onClick={() => changeLanguage('pt')}
+              className="text-gray-600 hover:text-blue-600 transition-colors duration-200"
+            >
+              PT
+            </button>
           </div>
 
           {/* Mobile menu button */}
@@ -86,6 +110,21 @@ const Navbar = () => {
                 {link.label}
               </Link>
             ))}
+          </div>
+          {/* Language Switch in Mobile Menu */}
+          <div className="flex justify-center space-x-4 p-4">
+            <button
+              onClick={() => changeLanguage('en')}
+              className="text-gray-600 hover:text-blue-600 transition-colors duration-200"
+            >
+              EN
+            </button>
+            <button
+              onClick={() => changeLanguage('pt')}
+              className="text-gray-600 hover:text-blue-600 transition-colors duration-200"
+            >
+              PT
+            </button>
           </div>
         </motion.div>
       )}

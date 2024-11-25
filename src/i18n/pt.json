@@ -1,0 +1,52 @@
+{
+    "navbar": {
+      "home": "Início",
+      "about": "Sobre Nós",
+      "services": "Serviços",
+      "partners": "Parceiros",
+      "testimonials": "Depoimentos",
+      "contact": "Contato",
+      "getStarted": "Começar"
+    },
+    "footer": {
+      "quickLinks": "Links Rápidos",
+      "contactInfo": "Informações de Contato",
+      "followUs": "Siga-nos"
+    },
+
+    "home": {
+    "heroTitle": "Seu Caminho para Talento e Crescimento Profissional com Madil",
+    "heroSubtitle": "A Madil conecta empresas líderes do setor com talentos excepcionais através de recrutamento estratégico e desenvolvimento de carreira",
+    "getStarted": "Começar",
+    "ourServices": "Nossos Serviços",
+    "trustedBy": "Confiado por Líderes da Indústria",
+    "impactTitle": "Nosso Impacto",
+    "impactSubtitle": "Resultados excepcionais através de soluções estratégicas de talentos",
+    "achievements": {
+      "successfulPlacements": "Contratações Bem-Sucedidas",
+      "partnerCompanies": "Empresas Parceiras",
+      "clientSatisfaction": "Satisfação do Cliente",
+      "yearsExperience": "Anos de Experiência"
+    },
+    "solutionsTitle": "Soluções Abrangentes",
+    "solutionsSubtitle": "Serviços personalizados para atender às suas necessidades de talentos",
+    "solutions": {
+      "executiveSearch": {
+        "title": "Busca Executiva",
+        "description": "Recrutamento estratégico para posições de liderança sênior"
+      },
+      "professionalRecruitment": {
+        "title": "Recrutamento Profissional",
+        "description": "Aquisição de talentos em diversas indústrias e funções"
+      },
+      "careerDevelopment": {
+        "title": "Desenvolvimento de Carreira",
+        "description": "Orientação especializada para o avanço da carreira"
+      }
+    },
+    "ctaTitle": "Pronto para Transformar Sua Carreira ou Equipe?",
+    "ctaSubtitle": "Vamos discutir como a Madil pode ajudá-lo a alcançar seus objetivos",
+    "schedule": "Agendar uma Consulta"
+  }
+}
+  

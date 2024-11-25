@@ -1,0 +1,53 @@
+{
+    "navbar": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "partners": "Partners",
+      "testimonials": "Testimonials",
+      "contact": "Contact",
+      "getStarted": "Get Started"
+    },
+    "footer": {
+      "quickLinks": "Quick Links",
+      "contactInfo": "Contact Info",
+      "followUs": "Follow Us"
+    },
+
+    "home": {
+    "heroTitle": "Your Gateway to Madil Talent & Career Growth",
+    "heroSubtitle": "Madil connects industry-leading companies with exceptional talent through strategic recruitment and career development",
+    "getStarted": "Get Started",
+    "ourServices": "Our Services",
+    "trustedBy": "Trusted by Industry Leaders",
+    "impactTitle": "Our Impact",
+    "impactSubtitle": "Delivering exceptional results through strategic talent solutions",
+    "achievements": {
+      "successfulPlacements": "Successful Placements",
+      "partnerCompanies": "Partner Companies",
+      "clientSatisfaction": "Client Satisfaction",
+      "yearsExperience": "Years Experience"
+    },
+    "solutionsTitle": "Comprehensive Solutions",
+    "solutionsSubtitle": "Tailored services to meet your talent needs",
+    "solutions": {
+      "executiveSearch": {
+        "title": "Executive Search",
+        "description": "Strategic recruitment for senior leadership positions"
+      },
+      "professionalRecruitment": {
+        "title": "Professional Recruitment",
+        "description": "Talent acquisition across industries and roles"
+      },
+      "careerDevelopment": {
+        "title": "Career Development",
+        "description": "Expert guidance for career advancement"
+      }
+    },
+    "ctaTitle": "Ready to Transform Your Career or Team?",
+    "ctaSubtitle": "Let's discuss how Madil can help you achieve your goals",
+    "schedule": "Schedule a Consultation"
+  }
+
+}
+  

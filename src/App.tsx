@@ -7,6 +7,7 @@ import Services from './pages/Services';
 import Partners from './pages/Partners';
 import Testimonials from './pages/Testimonials';
 import Contact from './pages/Contact';
+import './i18n'; 
 
 function App() {
   return (
