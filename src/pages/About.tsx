@@ -1,8 +1,10 @@
-
 import { motion } from 'framer-motion';
 import { Award, Clock, Globe, Users } from 'lucide-react';
+import { useTranslation } from 'react-i18next'; // Importa o hook de tradução
 
 const About = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="space-y-20">
       {/* Hero Section */}
@@ -15,11 +17,9 @@ const About = () => {
             className="max-w-3xl mx-auto text-center"
           >
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
-              About Madil
+              {t('about.heroTitle')}
             </h1>
-            <p className="text-xl text-gray-600">
-              We're more than just recruiters. We're career architects, building bridges between exceptional talent and visionary organizations.
-            </p>
+            <p className="text-xl text-gray-600">{t('about.heroSubtitle')}</p>
           </motion.div>
         </div>
       </section>
@@ -35,7 +35,7 @@ const About = () => {
             className="text-center"
           >
             <p className="text-4xl font-bold text-blue-600 mb-2">500+</p>
-            <p className="text-gray-600">Successful Placements</p>
+            <p className="text-gray-600">{t('about.stats.successfulPlacements')}</p>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -45,7 +45,7 @@ const About = () => {
             className="text-center"
           >
             <p className="text-4xl font-bold text-blue-600 mb-2">95%</p>
-            <p className="text-gray-600">Retention Rate</p>
+            <p className="text-gray-600">{t('about.stats.retentionRate')}</p>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -55,7 +55,7 @@ const About = () => {
             className="text-center"
           >
             <p className="text-4xl font-bold text-blue-600 mb-2">200+</p>
-            <p className="text-gray-600">Partner Companies</p>
+            <p className="text-gray-600">{t('about.stats.partnerCompanies')}</p>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -65,7 +65,7 @@ const About = () => {
             className="text-center"
           >
             <p className="text-4xl font-bold text-blue-600 mb-2">15+</p>
-            <p className="text-gray-600">Years Experience</p>
+            <p className="text-gray-600">{t('about.stats.yearsExperience')}</p>
           </motion.div>
         </div>
       </section>
@@ -80,10 +80,10 @@ const About = () => {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl font-bold mb-4">Our Core Values</h2>
-            <p className="text-xl text-gray-600">The principles that guide everything we do</p>
+            <h2 className="text-3xl font-bold mb-4">{t('about.values.title')}</h2>
+            <p className="text-xl text-gray-600">{t('about.values.subtitle')}</p>
           </motion.div>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -93,10 +93,10 @@ const About = () => {
               className="text-center p-6"
             >
               <Award className="h-12 w-12 text-blue-600 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Excellence</h3>
-              <p className="text-gray-600">We strive for excellence in every placement and interaction</p>
+              <h3 className="text-xl font-semibold mb-2">{t('about.values.excellence.title')}</h3>
+              <p className="text-gray-600">{t('about.values.excellence.description')}</p>
             </motion.div>
-            
+
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -105,10 +105,10 @@ const About = () => {
               className="text-center p-6"
             >
               <Users className="h-12 w-12 text-blue-600 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Partnership</h3>
-              <p className="text-gray-600">Building lasting relationships with clients and candidates</p>
+              <h3 className="text-xl font-semibold mb-2">{t('about.values.partnership.title')}</h3>
+              <p className="text-gray-600">{t('about.values.partnership.description')}</p>
             </motion.div>
-            
+
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -117,10 +117,10 @@ const About = () => {
               className="text-center p-6"
             >
               <Globe className="h-12 w-12 text-blue-600 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Innovation</h3>
-              <p className="text-gray-600">Embracing new approaches to talent acquisition</p>
+              <h3 className="text-xl font-semibold mb-2">{t('about.values.innovation.title')}</h3>
+              <p className="text-gray-600">{t('about.values.innovation.description')}</p>
             </motion.div>
-            
+
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -129,8 +129,8 @@ const About = () => {
               className="text-center p-6"
             >
               <Clock className="h-12 w-12 text-blue-600 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Efficiency</h3>
-              <p className="text-gray-600">Delivering results with speed and precision</p>
+              <h3 className="text-xl font-semibold mb-2">{t('about.values.efficiency.title')}</h3>
+              <p className="text-gray-600">{t('about.values.efficiency.description')}</p>
             </motion.div>
           </div>
         </div>

@@ -47,6 +47,36 @@
     "ctaTitle": "Pronto para Transformar Sua Carreira ou Equipe?",
     "ctaSubtitle": "Vamos discutir como a Madil pode ajudá-lo a alcançar seus objetivos",
     "schedule": "Agendar uma Consulta"
+  },
+  "about": {
+    "heroTitle": "Sobre a Madil",
+    "heroSubtitle": "Somos mais do que recrutadores. Somos arquitetos de carreiras, construindo pontes entre talentos excepcionais e organizações visionárias.",
+    "stats": {
+      "successfulPlacements": "Contratações Bem-Sucedidas",
+      "retentionRate": "Taxa de Retenção",
+      "partnerCompanies": "Empresas Parceiras",
+      "yearsExperience": "Anos de Experiência"
+    },
+    "values": {
+      "title": "Nossos Valores Essenciais",
+      "subtitle": "Os princípios que orientam tudo o que fazemos",
+      "excellence": {
+        "title": "Excelência",
+        "description": "Buscamos excelência em cada contratação e interação"
+      },
+      "partnership": {
+        "title": "Parceria",
+        "description": "Construindo relacionamentos duradouros com clientes e candidatos"
+      },
+      "innovation": {
+        "title": "Inovação",
+        "description": "Adotando novas abordagens para aquisição de talentos"
+      },
+      "efficiency": {
+        "title": "Eficiência",
+        "description": "Entregando resultados com rapidez e precisão"
+      }
+    }
   }
 }
   
