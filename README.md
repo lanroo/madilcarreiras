@@ -1,5 +1,5 @@
 
-# Madil Careers Platform
+# Madil Careers Platform [Madil Logo](src/img/foto.png)
 
 ## Overview
 Madil Careers Platform is a modern and responsive web application designed to connect exceptional talent with visionary organizations. This platform offers a variety of features, including career coaching, recruitment services, and HR consulting, all tailored to meet unique needs.
