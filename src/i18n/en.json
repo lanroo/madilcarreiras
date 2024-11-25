@@ -74,7 +74,41 @@
         "efficiency": {
           "title": "Efficiency",
           "description": "Delivering results with speed and precision"
+        },
+        "services": {
+        "heroTitle": "Our Services",
+        "heroSubtitle": "Comprehensive talent solutions tailored to your unique needs",
+        "serviceList": {
+            "executiveSearch": {
+            "title": "Executive Search",
+            "description": "Specialized recruitment for senior leadership and executive positions across industries."
+            },
+            "talentAcquisition": {
+            "title": "Talent Acquisition",
+            "description": "Comprehensive recruitment solutions for building high-performing teams."
+            },
+            "careerCoaching": {
+            "title": "Career Coaching",
+            "description": "Professional guidance for career development and advancement strategies."
+            },
+            "hrConsulting": {
+            "title": "HR Consulting",
+            "description": "Strategic HR solutions to optimize your organization's human capital."
+            },
+            "industrySpecialization": {
+            "title": "Industry Specialization",
+            "description": "Focused recruitment for technology, finance, healthcare, and more."
+            },
+            "leadershipDevelopment": {
+            "title": "Leadership Development",
+            "description": "Programs to nurture and develop the next generation of leaders."
+            }
+        },
+        "ctaTitle": "Ready to Get Started?",
+        "ctaSubtitle": "Let's discuss how we can help you achieve your goals",
+        "schedule": "Schedule a Consultation"
         }
+
       }
     }
   }

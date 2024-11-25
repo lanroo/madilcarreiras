@@ -75,7 +75,41 @@
       "efficiency": {
         "title": "Eficiência",
         "description": "Entregando resultados com rapidez e precisão"
-      }
+      },
+      "services": {
+    "heroTitle": "Nossos Serviços",
+    "heroSubtitle": "Soluções abrangentes de talentos personalizadas para suas necessidades únicas",
+    "serviceList": {
+        "executiveSearch": {
+        "title": "Busca Executiva",
+        "description": "Recrutamento especializado para posições de liderança sênior e executiva em diversos setores."
+        },
+        "talentAcquisition": {
+        "title": "Aquisição de Talentos",
+        "description": "Soluções completas de recrutamento para a construção de equipes de alto desempenho."
+        },
+        "careerCoaching": {
+        "title": "Orientação de Carreira",
+        "description": "Orientação profissional para desenvolvimento e estratégias de avanço de carreira."
+        },
+        "hrConsulting": {
+        "title": "Consultoria em RH",
+        "description": "Soluções estratégicas de RH para otimizar o capital humano da sua organização."
+        },
+        "industrySpecialization": {
+        "title": "Especialização em Indústrias",
+        "description": "Recrutamento focado em tecnologia, finanças, saúde e mais."
+        },
+        "leadershipDevelopment": {
+        "title": "Desenvolvimento de Liderança",
+        "description": "Programas para nutrir e desenvolver a próxima geração de líderes."
+        }
+    },
+    "ctaTitle": "Pronto para Começar?",
+    "ctaSubtitle": "Vamos discutir como podemos ajudá-lo a alcançar seus objetivos",
+    "schedule": "Agendar uma Consulta"
+    }
+
     }
   }
 }
