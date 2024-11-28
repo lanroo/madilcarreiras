@@ -85,11 +85,5 @@ npm run build
 yarn build
 ```
 
-## Implantação
-Este projeto pode ser implantado em plataformas como Vercel, Netlify ou qualquer provedor de hospedagem estática que suporte aplicações de página única (SPA).
-
-## Contribuições
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request com suas melhorias.
-
 ## Licença
 Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
