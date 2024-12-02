@@ -1,96 +1,89 @@
 
-# Madil Careers Platform <img src="src/img/foto.png" alt="Madil Logo" width="60" align="center">
+# Plataforma de Carreiras Madil <img src="src/img/foto.png" alt="Madil Logo" width="60" align="center">
 
-## Overview
-Madil Careers Platform is a modern and responsive web application designed to connect exceptional talent with visionary organizations. This platform offers a variety of features, including career coaching, recruitment services, and HR consulting, all tailored to meet unique needs.
+## Visão Geral
+A Plataforma de Carreiras Madil é uma aplicação web moderna e responsiva, projetada para conectar talentos excepcionais com organizações visionárias. Esta plataforma oferece uma variedade de recursos, incluindo coaching de carreira, serviços de recrutamento e consultoria de RH, todos personalizados para atender às necessidades únicas.
 
-## Features
-- **Multi-language support:** English and Portuguese (PT) translations available.
-- **Dynamic navigation bar:** Includes sections for Home, About Us, Services, Partners, Testimonials, and Contact.
-- **Customizable components:** Fully modularized components for scalability and ease of maintenance.
-- **Responsive design:** Optimized for both desktop and mobile users.
-- **Animations:** Smooth transitions and animations powered by `framer-motion`.
-- **Icons:** Visual elements provided by `lucide-react`.
-- **Stylized layouts:** Built with `Tailwind CSS` for modern and responsive designs.
+## Funcionalidades
+- **Suporte multilíngue:** Traduções disponíveis em inglês e português (PT).
+- **Barra de navegação dinâmica:** Inclui seções para Início, Sobre Nós, Serviços, Parceiros, Depoimentos e Contato.
+- **Componentes personalizáveis:** Componentes totalmente modularizados para escalabilidade e facilidade de manutenção.
+- **Design responsivo:** Otimizado para usuários de desktop e dispositivos móveis.
+- **Animações:** Transições suaves e animações alimentadas pelo `framer-motion`.
+- **Ícones:** Elementos visuais fornecidos pelo `lucide-react`.
+- **Layouts estilizados:** Construído com `Tailwind CSS` para designs modernos e responsivos.
 
-## Tech Stack
-- **Frontend Framework:** React
-- **State Management:** React Hooks
-- **Routing:** React Router
-- **Styling:** Tailwind CSS
-- **Animations:** framer-motion
-- **Icons:** lucide-react
-- **Internationalization (i18n):** `react-i18next` for multilingual support
-- **Build Tool:** Vite
+## Stack de Tecnologias
+- **Framework de Frontend:** React
+- **Gerenciamento de Estado:** React Hooks
+- **Roteamento:** React Router
+- **Estilização:** Tailwind CSS
+- **Animações:** framer-motion
+- **Ícones:** lucide-react
+- **Internacionalização (i18n):** `react-i18next` para suporte multilíngue
+- **Ferramenta de Build:** Vite
 
-## Project Structure
+## Estrutura do Projeto
 ```
 ├── src/
 │   ├── components/
-│   │   ├── Navbar.tsx       # Navbar with language switcher
-│   │   ├── Footer.tsx       # Footer with links and contact information
-│   │   ├── PartnersSlider.tsx  # Animated slider for showcasing partners
+│   │   ├── Navbar.tsx       # Barra de navegação com alternador de idioma
+│   │   ├── Footer.tsx       # Rodapé com links e informações de contato
+│   │   ├── PartnersSlider.tsx  # Slider animado para exibir parceiros
 │   ├── pages/
-│   │   ├── Home.tsx         # Home page
-│   │   ├── About.tsx        # About Us page
-│   │   ├── Services.tsx     # Services page
+│   │   ├── Home.tsx         # Página inicial
+│   │   ├── About.tsx        # Página Sobre Nós
+│   │   ├── Services.tsx     # Página de Serviços
 │   ├── translations/
-│   │   ├── en.json          # English translations
-│   │   ├── pt.json          # Portuguese translations
+│   │   ├── en.json          # Traduções em inglês
+│   │   ├── pt.json          # Traduções em português
 │   ├── img/
-│   │   ├── logo.jpg         # Company logo
-│   ├── App.tsx              # Main application file
-│   ├── main.tsx             # Application entry point
-│   └── index.css            # Global styles
+│   │   ├── logo.jpg         # Logotipo da empresa
+│   ├── App.tsx              # Arquivo principal da aplicação
+│   ├── main.tsx             # Ponto de entrada da aplicação
+│   └── index.css            # Estilos globais
 ├── public/
-├── README.md                # Project documentation
+├── README.md                # Documentação do projeto
 ```
 
-## How to Run the Project
-### Prerequisites
-- Node.js (version 14 or above)
-- npm or yarn
+## Como Executar o Projeto
+### Pré-requisitos
+- Node.js (versão 14 ou superior)
+- npm ou yarn
 
-### Installation
-1. Clone the repository:
+### Instalação
+1. Clone o repositório:
    ```bash
    git clone https://github.com/lanroo/madilcarreiras.git
    cd madilcarreiras
    ```
 
-2. Install dependencies:
+2. Instale as dependências:
    ```bash
    npm install
-   # or
+   # ou
    yarn install
    ```
 
-3. Run the development server:
+3. Execute o servidor de desenvolvimento:
    ```bash
    npm run dev
-   # or
+   # ou
    yarn dev
    ```
 
-4. Open the application in your browser:
+4. Abra a aplicação no navegador:
    ```text
    http://localhost:5173
    ```
 
-### Build for Production
-To create a production build, run:
+### Build para Produção
+Para criar um build de produção, execute:
 ```bash
 npm run build
-# or
+# ou
 yarn build
 ```
 
-## Deployment
-This project can be deployed to platforms like Vercel, Netlify, or any static hosting provider that supports single-page applications (SPA).
-
-## Contributions
-Contributions are welcome! Feel free to open an issue or submit a pull request with your improvements.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
+## Licença
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para mais detalhes.
