@@ -1,8 +1,9 @@
 import { motion } from 'framer-motion';
 import { Search, Users, Briefcase, LineChart, Target, BookOpen } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next'; // Importando o hook useTranslation
 
-const ServiceCard = ({ icon: Icon, title, description }: { icon: any, title: string, description: string }) => (
+const ServiceCard = ({ icon: Icon, title, description }: { icon: any; title: string; description: string }) => (
   <motion.div
     initial={{ opacity: 0, y: 20 }}
     whileInView={{ opacity: 1, y: 0 }}
@@ -17,43 +18,45 @@ const ServiceCard = ({ icon: Icon, title, description }: { icon: any, title: str
       to="/contact"
       className="text-blue-600 font-medium hover:text-blue-700 transition-colors duration-200"
     >
-      Learn More →
+      {useTranslation().t('servicesPage.learnMore')} →
     </Link>
   </motion.div>
 );
 
 const Services = () => {
+  const { t } = useTranslation();
+
   const services = [
     {
       icon: Search,
-      title: "Executive Search",
-      description: "Specialized recruitment for senior leadership and executive positions across industries."
+      title: t('servicesPage.services.executiveSearch.title'),
+      description: t('servicesPage.services.executiveSearch.description'),
     },
     {
       icon: Users,
-      title: "Talent Acquisition",
-      description: "Comprehensive recruitment solutions for building high-performing teams."
+      title: t('servicesPage.services.talentAcquisition.title'),
+      description: t('servicesPage.services.talentAcquisition.description'),
     },
     {
       icon: Briefcase,
-      title: "Career Coaching",
-      description: "Professional guidance for career development and advancement strategies."
+      title: t('servicesPage.services.careerCoaching.title'),
+      description: t('servicesPage.services.careerCoaching.description'),
     },
     {
       icon: LineChart,
-      title: "HR Consulting",
-      description: "Strategic HR solutions to optimize your organization's human capital."
+      title: t('servicesPage.services.hrConsulting.title'),
+      description: t('servicesPage.services.hrConsulting.description'),
     },
     {
       icon: Target,
-      title: "Industry Specialization",
-      description: "Focused recruitment for technology, finance, healthcare, and more."
+      title: t('servicesPage.services.industrySpecialization.title'),
+      description: t('servicesPage.services.industrySpecialization.description'),
     },
     {
       icon: BookOpen,
-      title: "Leadership Development",
-      description: "Programs to nurture and develop the next generation of leaders."
-    }
+      title: t('servicesPage.services.leadershipDevelopment.title'),
+      description: t('servicesPage.services.leadershipDevelopment.description'),
+    },
   ];
 
   return (
@@ -67,12 +70,8 @@ const Services = () => {
             transition={{ duration: 0.6 }}
             className="text-center max-w-3xl mx-auto"
           >
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Our Services
-            </h1>
-            <p className="text-xl mb-8">
-              Comprehensive talent solutions tailored to your unique needs
-            </p>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('servicesPage.heroTitle')}</h1>
+            <p className="text-xl mb-8">{t('servicesPage.heroSubtitle')}</p>
           </motion.div>
         </div>
       </section>
@@ -96,15 +95,13 @@ const Services = () => {
             viewport={{ once: true }}
             className="text-center"
           >
-            <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
-            <p className="text-xl text-gray-600 mb-8">
-              Let's discuss how we can help you achieve your goals
-            </p>
+            <h2 className="text-3xl font-bold mb-4">{t('servicesPage.ctaTitle')}</h2>
+            <p className="text-xl text-gray-600 mb-8">{t('servicesPage.ctaSubtitle')}</p>
             <Link
               to="/contact"
               className="inline-block bg-blue-600 text-white px-8 py-3 rounded-md font-medium hover:bg-blue-700 transition-colors duration-200"
             >
-              Schedule a Consultation
+              {t('servicesPage.schedule')}
             </Link>
           </motion.div>
         </div>

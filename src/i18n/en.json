@@ -29,8 +29,15 @@
   "about": {
     "heroTitle": "About Us",
     "heroSubtitle": "We are career architects, connecting exceptional talent with visionary companies.",
+    "stats": {
+      "successfulPlacements": "Successful Placements",
+      "retentionRate": "Retention Rate",
+      "partnerCompanies": "Partner Companies",
+      "yearsExperience": "Years of Experience"
+    },
     "values": {
       "title": "Our Core Values",
+      "subtitle": "The principles that guide us to achieve excellence.",
       "excellence": {
         "title": "Excellence",
         "description": "Striving for excellence in every placement."
@@ -42,6 +49,10 @@
       "partnership": {
         "title": "Partnership",
         "description": "Building long-lasting relationships."
+      },
+      "efficiency": {
+        "title": "Efficiency",
+        "description": "Optimizing processes to achieve fast and high-quality results."
       }
     }
   },
@@ -51,7 +62,33 @@
     "ctaTitle": "Ready to Get Started?",
     "ctaSubtitle": "Let's discuss how we can help you achieve your goals",
     "schedule": "Schedule a Consultation",
-    "learnMore": "Learn More"
+    "learnMore": "Learn More",
+    "services": {
+      "executiveSearch": {
+        "title": "Executive Search",
+        "description": "Specialized recruitment for senior leadership and executive positions across industries."
+      },
+      "talentAcquisition": {
+        "title": "Talent Acquisition",
+        "description": "Comprehensive recruitment solutions for building high-performing teams."
+      },
+      "careerCoaching": {
+        "title": "Career Coaching",
+        "description": "Professional guidance for career development and advancement strategies."
+      },
+      "hrConsulting": {
+        "title": "HR Consulting",
+        "description": "Strategic HR solutions to optimize your organization's human capital."
+      },
+      "industrySpecialization": {
+        "title": "Industry Specialization",
+        "description": "Focused recruitment for technology, finance, healthcare, and more."
+      },
+      "leadershipDevelopment": {
+        "title": "Leadership Development",
+        "description": "Programs to nurture and develop the next generation of leaders."
+      }
+    }
   },
   "partnersPage": {
     "heroTitle": "Our Global Partners",
@@ -124,25 +161,24 @@
         "role": "Product Manager",
         "company": "Future Tech",
         "content": "The personalized approach and deep industry knowledge made my job search experience exceptional. I found my dream role through Madil."
-  },
-    "contactPage": {
-      "heroTitle": "Get in Touch",
-      "heroSubtitle": "Let's discuss how we can help you achieve your goals",
-      "contactInformation": "Contact Information",
-      "formSubtitle": "Fill out the form and we'll get back to you within 24 hours",
-      "formLabels": {
-        "name": "Full Name",
-        "email": "Email",
-        "phone": "Phone Number",
-        "company": "Company",
-        "message": "Message",
-        "sendMessage": "Send Message"
-      },
-      "phone": "Phone",
-      "email": "Email",
-      "office": "Office"
       }
     }
+  },
+  "contactPage": {
+    "heroTitle": "Get in Touch",
+    "heroSubtitle": "Let's discuss how we can help you achieve your goals",
+    "contactInformation": "Contact Information",
+    "formSubtitle": "Fill out the form and we'll get back to you within 24 hours",
+    "formLabels": {
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "company": "Company",
+      "message": "Message",
+      "sendMessage": "Send Message"
+    },
+    "phone": "Phone",
+    "email": "Email",
+    "office": "Office"
   }
 }
-

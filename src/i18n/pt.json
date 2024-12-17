@@ -29,8 +29,15 @@
   "about": {
     "heroTitle": "Sobre Nós",
     "heroSubtitle": "Somos arquitetos de carreira, conectando talentos excepcionais com empresas visionárias.",
+    "stats": {
+      "successfulPlacements": "Contratações Bem-Sucedidas",
+      "retentionRate": "Taxa de Retenção",
+      "partnerCompanies": "Empresas Parceiras",
+      "yearsExperience": "Anos de Experiência"
+    },
     "values": {
       "title": "Nossos Valores Essenciais",
+      "subtitle": "Os princípios que nos guiam para alcançar a excelência.",
       "excellence": {
         "title": "Excelência",
         "description": "Buscamos a excelência em cada contratação."
@@ -42,6 +49,10 @@
       "partnership": {
         "title": "Parceria",
         "description": "Construindo relacionamentos duradouros."
+      },
+      "efficiency": {
+        "title": "Eficiência",
+        "description": "Otimizamos processos para obter resultados rápidos e de alta qualidade."
       }
     }
   },
@@ -51,7 +62,33 @@
     "ctaTitle": "Pronto para Começar?",
     "ctaSubtitle": "Vamos discutir como podemos ajudá-lo a alcançar seus objetivos",
     "schedule": "Agendar uma Consulta",
-    "learnMore": "Saiba Mais"
+    "learnMore": "Saiba Mais",
+    "services": {
+      "executiveSearch": {
+        "title": "Busca Executiva",
+        "description": "Recrutamento especializado para cargos de liderança sênior e posições executivas em diversos setores."
+      },
+      "talentAcquisition": {
+        "title": "Aquisição de Talentos",
+        "description": "Soluções abrangentes de recrutamento para a construção de equipes de alto desempenho."
+      },
+      "careerCoaching": {
+        "title": "Coaching de Carreira",
+        "description": "Orientação profissional para desenvolvimento e estratégias de avanço na carreira."
+      },
+      "hrConsulting": {
+        "title": "Consultoria de RH",
+        "description": "Soluções estratégicas de RH para otimizar o capital humano da sua organização."
+      },
+      "industrySpecialization": {
+        "title": "Especialização por Indústria",
+        "description": "Recrutamento focado em tecnologia, finanças, saúde e muito mais."
+      },
+      "leadershipDevelopment": {
+        "title": "Desenvolvimento de Liderança",
+        "description": "Programas para nutrir e desenvolver a próxima geração de líderes."
+      }
+    }
   },
   "partnersPage": {
     "heroTitle": "Nossos Parceiros Globais",
@@ -124,24 +161,24 @@
         "role": "Gerente de Produto",
         "company": "Future Tech",
         "content": "A abordagem personalizada e o profundo conhecimento do setor tornaram minha experiência de busca de emprego excepcional. Encontrei meu cargo dos sonhos através da Madil."
-  },
-    "contactPage": {
-      "heroTitle": "Entre em Contato",
-      "heroSubtitle": "Vamos discutir como podemos ajudá-lo a alcançar seus objetivos",
-      "contactInformation": "Informações de Contato",
-      "formSubtitle": "Preencha o formulário e retornaremos em até 24 horas",
-      "formLabels": {
-        "name": "Nome Completo",
-        "email": "E-mail",
-        "phone": "Número de Telefone",
-        "company": "Empresa",
-        "message": "Mensagem",
-        "sendMessage": "Enviar Mensagem"
-      },
-      "phone": "Telefone",
-      "email": "E-mail",
-      "office": "Escritório"
       }
     }
+  },
+  "contactPage": {
+    "heroTitle": "Entre em Contato",
+    "heroSubtitle": "Vamos discutir como podemos ajudá-lo a alcançar seus objetivos",
+    "contactInformation": "Informações de Contato",
+    "formSubtitle": "Preencha o formulário e retornaremos em até 24 horas",
+    "formLabels": {
+      "name": "Nome Completo",
+      "email": "E-mail",
+      "phone": "Número de Telefone",
+      "company": "Empresa",
+      "message": "Mensagem",
+      "sendMessage": "Enviar Mensagem"
+    },
+    "phone": "Telefone",
+    "email": "E-mail",
+    "office": "Escritório"
   }
 }
