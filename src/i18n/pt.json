@@ -24,38 +24,61 @@
     "impactTitle": "Nosso Impacto",
     "impactSubtitle": "Resultados excepcionais através de soluções estratégicas",
     "solutionsTitle": "Soluções Abrangentes",
-    "solutionsSubtitle": "Serviços personalizados para atender suas necessidades"
+    "solutionsSubtitle": "Serviços personalizados para atender suas necessidades",
+    "achievements": {
+    "successfulPlacements": "Contratações Bem-Sucedidas",
+    "partnerCompanies": "Empresas Parceiras",
+    "clientSatisfaction": "Satisfação do Cliente",
+    "yearsExperience": "Anos de Experiência"
   },
-  "about": {
-    "heroTitle": "Sobre Nós",
-    "heroSubtitle": "Somos arquitetos de carreira, conectando talentos excepcionais com empresas visionárias.",
-    "stats": {
-      "successfulPlacements": "Contratações Bem-Sucedidas",
-      "retentionRate": "Taxa de Retenção",
-      "partnerCompanies": "Empresas Parceiras",
-      "yearsExperience": "Anos de Experiência"
+  "solutions": {
+    "executiveSearch": {
+      "title": "Busca Executiva",
+      "description": "Recrutamento estratégico para posições de liderança sênior."
     },
-    "values": {
-      "title": "Nossos Valores Essenciais",
-      "subtitle": "Os princípios que nos guiam para alcançar a excelência.",
-      "excellence": {
-        "title": "Excelência",
-        "description": "Buscamos a excelência em cada contratação."
-      },
-      "innovation": {
-        "title": "Inovação",
-        "description": "Adotamos novas abordagens para recrutamento."
-      },
-      "partnership": {
-        "title": "Parceria",
-        "description": "Construindo relacionamentos duradouros."
-      },
-      "efficiency": {
-        "title": "Eficiência",
-        "description": "Otimizamos processos para obter resultados rápidos e de alta qualidade."
-      }
+    "professionalRecruitment": {
+      "title": "Recrutamento Profissional",
+      "description": "Aquisição de talentos em diversas indústrias e funções."
+    },
+    "careerDevelopment": {
+      "title": "Desenvolvimento de Carreira",
+      "description": "Orientação especializada para o avanço da carreira."
     }
   },
+  "ctaTitle": "Pronto para Transformar Sua Carreira ou Equipe?",
+  "ctaSubtitle": "Vamos discutir como a Madil pode ajudá-lo a alcançar seus objetivos",
+  "schedule": "Agendar uma Consulta"
+    },
+    "about": {
+      "heroTitle": "Sobre Nós",
+      "heroSubtitle": "Somos arquitetos de carreira, conectando talentos excepcionais com empresas visionárias.",
+      "stats": {
+        "successfulPlacements": "Contratações Bem-Sucedidas",
+        "retentionRate": "Taxa de Retenção",
+        "partnerCompanies": "Empresas Parceiras",
+        "yearsExperience": "Anos de Experiência"
+      },
+      "values": {
+        "title": "Nossos Valores Essenciais",
+        "subtitle": "Os princípios que nos guiam para alcançar a excelência.",
+        "excellence": {
+          "title": "Excelência",
+          "description": "Buscamos a excelência em cada contratação."
+        },
+        "innovation": {
+          "title": "Inovação",
+          "description": "Adotamos novas abordagens para recrutamento."
+        },
+        "partnership": {
+          "title": "Parceria",
+          "description": "Construindo relacionamentos duradouros."
+        },
+        "efficiency": {
+          "title": "Eficiência",
+          "description": "Otimizamos processos para obter resultados rápidos e de alta qualidade."
+        }
+      }
+    },
   "servicesPage": {
     "heroTitle": "Nossos Serviços",
     "heroSubtitle": "Soluções abrangentes de talentos personalizadas para suas necessidades",

@@ -24,8 +24,31 @@
     "impactTitle": "Our Impact",
     "impactSubtitle": "Delivering exceptional results through strategic solutions",
     "solutionsTitle": "Comprehensive Solutions",
-    "solutionsSubtitle": "Tailored services to meet your needs"
+    "solutionsSubtitle": "Tailored services to meet your needs",
+    "achievements": {
+    "successfulPlacements": "Successful Placements",
+    "partnerCompanies": "Partner Companies",
+    "clientSatisfaction": "Client Satisfaction",
+    "yearsExperience": "Years of Experience"
   },
+  "solutions": {
+    "executiveSearch": {
+      "title": "Executive Search",
+      "description": "Strategic recruitment for senior leadership positions."
+    },
+    "professionalRecruitment": {
+      "title": "Professional Recruitment",
+      "description": "Talent acquisition across various industries and roles."
+    },
+    "careerDevelopment": {
+      "title": "Career Development",
+      "description": "Specialized guidance for career advancement."
+    }
+  },
+  "ctaTitle": "Ready to Transform Your Career or Team?",
+  "ctaSubtitle": "Let's discuss how Madil can help you achieve your goals",
+  "schedule": "Schedule a Consultation"
+},
   "about": {
     "heroTitle": "About Us",
     "heroSubtitle": "We are career architects, connecting exceptional talent with visionary companies.",
