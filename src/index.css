@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@keyframes fadeVideo {
+  0%, 100% {
+    opacity: 4;
+  }
+  95%, 99% {
+    opacity: 0.99;
+  }
+}
+
+.video-responsive {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+video.w-full.h-full.object-contain.VPY_from_APL1 {
+  background: rgb(0, 0, 0);
+}
+
+
 @layer base {
   html {
     scroll-behavior: smooth;
