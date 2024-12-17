@@ -13,9 +13,10 @@ i18n
       en: { translation: en },
       pt: { translation: pt },
     },
-    fallbackLng: 'en', // Idioma padrão
+    fallbackLng: 'en', // Idioma padrão caso não encontre traduções
+    debug: true, // Habilita mensagens de log no console
     interpolation: {
-      escapeValue: false, // React já faz o escaping
+      escapeValue: false, // React já faz escaping de valores
     },
   });
 

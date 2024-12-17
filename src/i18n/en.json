@@ -1,115 +1,148 @@
 {
-    "navbar": {
-      "home": "Home",
-      "about": "About Us",
-      "services": "Services",
-      "partners": "Partners",
-      "testimonials": "Testimonials",
-      "contact": "Contact",
-      "getStarted": "Get Started"
-    },
-    "footer": {
-      "quickLinks": "Quick Links",
-      "contactInfo": "Contact Info",
-      "followUs": "Follow Us"
-    },
-    "home": {
-      "heroTitle": "Your Gateway to Madil Talent & Career Growth",
-      "heroSubtitle": "Madil connects industry-leading companies with exceptional talent through strategic recruitment and career development",
-      "getStarted": "Get Started",
-      "ourServices": "Our Services",
-      "trustedBy": "Trusted by Industry Leaders",
-      "impactTitle": "Our Impact",
-      "impactSubtitle": "Delivering exceptional results through strategic talent solutions",
-      "achievements": {
-        "successfulPlacements": "Successful Placements",
-        "partnerCompanies": "Partner Companies",
-        "clientSatisfaction": "Client Satisfaction",
-        "yearsExperience": "Years Experience"
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "partners": "Partners",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+  "footer": {
+    "description": "Connecting exceptional talent with leading organizations through strategic recruitment and career mentorship.",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Info",
+    "followUs": "Follow Us",
+    "allRightsReserved": "All rights reserved."
+  },
+  "home": {
+    "heroTitle": "Your Gateway to Talent & Career Growth",
+    "heroSubtitle": "We connect companies with exceptional talent through strategic recruitment and career development.",
+    "getStarted": "Get Started",
+    "ourServices": "Our Services",
+    "trustedBy": "Trusted by Industry Leaders",
+    "impactTitle": "Our Impact",
+    "impactSubtitle": "Delivering exceptional results through strategic solutions",
+    "solutionsTitle": "Comprehensive Solutions",
+    "solutionsSubtitle": "Tailored services to meet your needs"
+  },
+  "about": {
+    "heroTitle": "About Us",
+    "heroSubtitle": "We are career architects, connecting exceptional talent with visionary companies.",
+    "values": {
+      "title": "Our Core Values",
+      "excellence": {
+        "title": "Excellence",
+        "description": "Striving for excellence in every placement."
       },
-      "solutionsTitle": "Comprehensive Solutions",
-      "solutionsSubtitle": "Tailored services to meet your talent needs",
-      "solutions": {
-        "executiveSearch": {
-          "title": "Executive Search",
-          "description": "Strategic recruitment for senior leadership positions"
-        },
-        "professionalRecruitment": {
-          "title": "Professional Recruitment",
-          "description": "Talent acquisition across industries and roles"
-        },
-        "careerDevelopment": {
-          "title": "Career Development",
-          "description": "Expert guidance for career advancement"
-        }
+      "innovation": {
+        "title": "Innovation",
+        "description": "Embracing new approaches to recruitment."
       },
-      "ctaTitle": "Ready to Transform Your Career or Team?",
-      "ctaSubtitle": "Let's discuss how Madil can help you achieve your goals",
-      "schedule": "Schedule a Consultation"
+      "partnership": {
+        "title": "Partnership",
+        "description": "Building long-lasting relationships."
+      }
+    }
+  },
+  "servicesPage": {
+    "heroTitle": "Our Services",
+    "heroSubtitle": "Comprehensive talent solutions tailored to your unique needs",
+    "ctaTitle": "Ready to Get Started?",
+    "ctaSubtitle": "Let's discuss how we can help you achieve your goals",
+    "schedule": "Schedule a Consultation",
+    "learnMore": "Learn More"
+  },
+  "partnersPage": {
+    "heroTitle": "Our Global Partners",
+    "heroSubtitle": "Collaborating with industry leaders to deliver exceptional talent solutions.",
+    "stats": {
+      "partnerCompanies": "Partner Companies",
+      "successfulPlacements": "Successful Placements",
+      "clientSatisfaction": "Client Satisfaction",
+      "industriesServed": "Industries Served"
     },
-    "about": {
-      "heroTitle": "About Madil",
-      "heroSubtitle": "We're more than just recruiters. We're career architects, building bridges between exceptional talent and visionary organizations.",
-      "stats": {
-        "successfulPlacements": "Successful Placements",
-        "retentionRate": "Retention Rate",
-        "partnerCompanies": "Partner Companies",
-        "yearsExperience": "Years Experience"
+    "featuredTitle": "Featured Partners",
+    "featuredSubtitle": "Working with the world's most innovative companies",
+    "industriesTitle": "Industries We Serve",
+    "industriesSubtitle": "Expertise across diverse sectors",
+    "industries": {
+      "technology": "Technology",
+      "finance": "Finance",
+      "healthcare": "Healthcare",
+      "manufacturing": "Manufacturing",
+      "retail": "Retail",
+      "energy": "Energy",
+      "education": "Education",
+      "consulting": "Consulting"
+    },
+    "featuredPartners": {
+      "microsoftDescription": "Long-term partnership delivering top tech talent and leadership solutions.",
+      "googleDescription": "Collaborative recruitment for innovative roles and specialized positions.",
+      "amazonDescription": "Strategic talent acquisition for rapid growth and expansion.",
+      "metaDescription": "Executive search and specialized recruitment for cutting-edge projects.",
+      "appleDescription": "Premium talent solutions for design and engineering excellence.",
+      "ibmDescription": "Enterprise-level recruitment and workforce transformation."
+    }
+  },
+  "testimonialsPage": {
+    "heroTitle": "Client Success Stories",
+    "heroSubtitle": "Hear from professionals and organizations who have transformed their careers and teams with Madil.",
+    "testimonials": {
+      "carlos": {
+        "name": "Carlos Luiz",
+        "role": "CTO",
+        "company": "TechVision Inc.",
+        "content": "Madil helped us find exceptional talent that transformed our engineering team. Their understanding of our technical needs and company culture was impressive."
       },
-      "values": {
-        "title": "Our Core Values",
-        "subtitle": "The principles that guide everything we do",
-        "excellence": {
-          "title": "Excellence",
-          "description": "We strive for excellence in every placement and interaction"
-        },
-        "partnership": {
-          "title": "Partnership",
-          "description": "Building lasting relationships with clients and candidates"
-        },
-        "innovation": {
-          "title": "Innovation",
-          "description": "Embracing new approaches to talent acquisition"
-        },
-        "efficiency": {
-          "title": "Efficiency",
-          "description": "Delivering results with speed and precision"
-        },
-        "services": {
-        "heroTitle": "Our Services",
-        "heroSubtitle": "Comprehensive talent solutions tailored to your unique needs",
-        "serviceList": {
-            "executiveSearch": {
-            "title": "Executive Search",
-            "description": "Specialized recruitment for senior leadership and executive positions across industries."
-            },
-            "talentAcquisition": {
-            "title": "Talent Acquisition",
-            "description": "Comprehensive recruitment solutions for building high-performing teams."
-            },
-            "careerCoaching": {
-            "title": "Career Coaching",
-            "description": "Professional guidance for career development and advancement strategies."
-            },
-            "hrConsulting": {
-            "title": "HR Consulting",
-            "description": "Strategic HR solutions to optimize your organization's human capital."
-            },
-            "industrySpecialization": {
-            "title": "Industry Specialization",
-            "description": "Focused recruitment for technology, finance, healthcare, and more."
-            },
-            "leadershipDevelopment": {
-            "title": "Leadership Development",
-            "description": "Programs to nurture and develop the next generation of leaders."
-            }
-        },
-        "ctaTitle": "Ready to Get Started?",
-        "ctaSubtitle": "Let's discuss how we can help you achieve your goals",
-        "schedule": "Schedule a Consultation"
-        }
-
+      "michael": {
+        "name": "Michael Chen",
+        "role": "Director of Operations",
+        "company": "Global Solutions",
+        "content": "The career mentorship program provided invaluable guidance for my professional development. I highly recommend their services to anyone looking to advance their career."
+      },
+      "emily": {
+        "name": "Emily Rodriguez",
+        "role": "Frontend Developer",
+        "company": "Innovation Corp",
+        "content": "Working with Madil has significantly improved our hiring process. Their attention to detail and quick response time make them stand out from other recruiters."
+      },
+      "leah": {
+        "name": "Leah Park",
+        "role": "Senior Developer",
+        "company": "CodeCraft",
+        "content": "Thanks to Madil's career coaching, I successfully transitioned into a senior role. Their insights and support were instrumental in my career growth."
+      },
+      "lisa": {
+        "name": "Lisa Thompson",
+        "role": "CEO",
+        "company": "StartUp Ventures",
+        "content": "Madil's executive search services helped us build a world-class leadership team. Their network and professional approach exceeded our expectations."
+      },
+      "james": {
+        "name": "James Wilson",
+        "role": "Product Manager",
+        "company": "Future Tech",
+        "content": "The personalized approach and deep industry knowledge made my job search experience exceptional. I found my dream role through Madil."
+  },
+    "contactPage": {
+      "heroTitle": "Get in Touch",
+      "heroSubtitle": "Let's discuss how we can help you achieve your goals",
+      "contactInformation": "Contact Information",
+      "formSubtitle": "Fill out the form and we'll get back to you within 24 hours",
+      "formLabels": {
+        "name": "Full Name",
+        "email": "Email",
+        "phone": "Phone Number",
+        "company": "Company",
+        "message": "Message",
+        "sendMessage": "Send Message"
+      },
+      "phone": "Phone",
+      "email": "Email",
+      "office": "Office"
       }
     }
   }
-  
+}
+

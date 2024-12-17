@@ -1,11 +1,12 @@
 import { motion } from 'framer-motion';
 import { Building2, Users, Trophy, Target } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
-const PartnerCard = ({ name, logo, description, industry }: {
-  name: string;
-  logo: string;
-  description: string;
-  industry: string;
+const PartnerCard = ({ name, logo, description, industry }: { 
+  name: string; 
+  logo: string; 
+  description: string; 
+  industry: string; 
 }) => (
   <motion.div
     initial={{ opacity: 0, y: 20 }}
@@ -14,11 +15,7 @@ const PartnerCard = ({ name, logo, description, industry }: {
     viewport={{ once: true }}
     className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
   >
-    <img
-      src={logo}
-      alt={name}
-      className="h-12 object-contain mb-4"
-    />
+    <img src={logo} alt={name} className="h-12 object-contain mb-4" />
     <h3 className="text-xl font-semibold mb-2">{name}</h3>
     <p className="text-blue-600 text-sm mb-3">{industry}</p>
     <p className="text-gray-600">{description}</p>
@@ -26,66 +23,52 @@ const PartnerCard = ({ name, logo, description, industry }: {
 );
 
 const Partners = () => {
+  const { t } = useTranslation();
+
   const featuredPartners = [
     {
       name: "Microsoft",
       logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/200px-Microsoft_logo.svg.png",
-      industry: "Technology",
-      description: "Long-term partnership delivering top tech talent and leadership solutions."
+      industry: t("partnersPage.industries.technology"),
+      description: t("partnersPage.featuredPartners.microsoftDescription")
     },
     {
       name: "Google",
       logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/200px-Google_2015_logo.svg.png",
-      industry: "Technology",
-      description: "Collaborative recruitment for innovative roles and specialized positions."
+      industry: t("partnersPage.industries.technology"),
+      description: t("partnersPage.featuredPartners.googleDescription")
     },
     {
       name: "Amazon",
       logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/200px-Amazon_logo.svg.png",
-      industry: "E-commerce & Technology",
-      description: "Strategic talent acquisition for rapid growth and expansion."
+      industry: t("partnersPage.industries.ecommerce"),
+      description: t("partnersPage.featuredPartners.amazonDescription")
     },
     {
       name: "Meta",
       logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Meta_Platforms_Inc._logo.svg/200px-Meta_Platforms_Inc._logo.svg.png",
-      industry: "Social Media & Technology",
-      description: "Executive search and specialized recruitment for cutting-edge projects."
+      industry: t("partnersPage.industries.socialMedia"),
+      description: t("partnersPage.featuredPartners.metaDescription")
     },
     {
       name: "Apple",
       logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/200px-Apple_logo_black.svg.png",
-      industry: "Technology & Consumer Electronics",
-      description: "Premium talent solutions for design and engineering excellence."
+      industry: t("partnersPage.industries.technology"),
+      description: t("partnersPage.featuredPartners.appleDescription")
     },
     {
       name: "IBM",
       logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/200px-IBM_logo.svg.png",
-      industry: "Technology & Consulting",
-      description: "Enterprise-level recruitment and workforce transformation."
+      industry: t("partnersPage.industries.consulting"),
+      description: t("partnersPage.featuredPartners.ibmDescription")
     }
   ];
 
   const stats = [
-    {
-      icon: Building2,
-      value: "500+",
-      label: "Partner Companies"
-    },
-    {
-      icon: Users,
-      value: "10,000+",
-      label: "Successful Placements"
-    },
-    {
-      icon: Trophy,
-      value: "98%",
-      label: "Client Satisfaction"
-    },
-    {
-      icon: Target,
-      value: "15+",
-      label: "Industries Served"
-    }
+    { icon: Building2, value: "500+", label: t("partnersPage.stats.partnerCompanies") },
+    { icon: Users, value: "10,000+", label: t("partnersPage.stats.successfulPlacements") },
+    { icon: Trophy, value: "98%", label: t("partnersPage.stats.clientSatisfaction") },
+    { icon: Target, value: "15+", label: t("partnersPage.stats.industriesServed") }
   ];
 
   return (
@@ -100,10 +83,10 @@ const Partners = () => {
             className="text-center max-w-3xl mx-auto"
           >
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Our Global Partners
+              {t("partnersPage.heroTitle")}
             </h1>
             <p className="text-xl mb-8">
-              Collaborating with industry leaders to deliver exceptional talent solutions
+              {t("partnersPage.heroSubtitle")}
             </p>
           </motion.div>
         </div>
@@ -138,9 +121,9 @@ const Partners = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl font-bold mb-4">Featured Partners</h2>
+          <h2 className="text-3xl font-bold mb-4">{t("partnersPage.featuredTitle")}</h2>
           <p className="text-xl text-gray-600">
-            Working with the world's most innovative companies
+            {t("partnersPage.featuredSubtitle")}
           </p>
         </motion.div>
 
@@ -161,22 +144,22 @@ const Partners = () => {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold mb-4">Industries We Serve</h2>
+            <h2 className="text-3xl font-bold mb-4">{t("partnersPage.industriesTitle")}</h2>
             <p className="text-xl text-gray-600">
-              Expertise across diverse sectors
+              {t("partnersPage.industriesSubtitle")}
             </p>
           </motion.div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
-              "Technology",
-              "Finance",
-              "Healthcare",
-              "Manufacturing",
-              "Retail",
-              "Energy",
-              "Education",
-              "Consulting"
+              t("partnersPage.industries.technology"),
+              t("partnersPage.industries.finance"),
+              t("partnersPage.industries.healthcare"),
+              t("partnersPage.industries.manufacturing"),
+              t("partnersPage.industries.retail"),
+              t("partnersPage.industries.energy"),
+              t("partnersPage.industries.education"),
+              t("partnersPage.industries.consulting")
             ].map((industry, index) => (
               <motion.div
                 key={index}
