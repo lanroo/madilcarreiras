@@ -103,6 +103,11 @@
         "title": "Consultoria de RH",
         "description": "Soluções estratégicas de RH para otimizar o capital humano da sua organização."
       },
+      "community": {
+      "title": "Comunidade TECH",
+      "description": "Conheça nossa comunidade TECH e faça parte de um grupo inovador de profissionais.",
+      "buttonText": "Acesse a Comunidade"
+      },
       "industrySpecialization": {
         "title": "Especialização por Indústria",
         "description": "Recrutamento focado em tecnologia, finanças, saúde e muito mais."

@@ -7,7 +7,7 @@ import Services from './pages/Services';
 import Partners from './pages/Partners';
 import Testimonials from './pages/Testimonials';
 import Contact from './pages/Contact';
-import './i18n'; 
+import './i18n'; // Certifique-se de que a configuração i18n está sendo importada.
 
 function App() {
   return (

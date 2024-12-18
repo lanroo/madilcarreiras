@@ -6,17 +6,17 @@ import en from './i18n/en.json';
 import pt from './i18n/pt.json';
 
 i18n
-  .use(LanguageDetector) // Detecta automaticamente o idioma do navegador
-  .use(initReactI18next) // Inicializa o react-i18next
+  .use(LanguageDetector) 
+  .use(initReactI18next) 
   .init({
     resources: {
       en: { translation: en },
       pt: { translation: pt },
     },
-    fallbackLng: 'en', // Idioma padrão caso não encontre traduções
-    debug: true, // Habilita mensagens de log no console
+    fallbackLng: 'en', 
+    debug: true, 
     interpolation: {
-      escapeValue: false, // React já faz escaping de valores
+      escapeValue: false, 
     },
   });
 

@@ -26,29 +26,29 @@
     "solutionsTitle": "Comprehensive Solutions",
     "solutionsSubtitle": "Tailored services to meet your needs",
     "achievements": {
-    "successfulPlacements": "Successful Placements",
-    "partnerCompanies": "Partner Companies",
-    "clientSatisfaction": "Client Satisfaction",
-    "yearsExperience": "Years of Experience"
-  },
-  "solutions": {
-    "executiveSearch": {
-      "title": "Executive Search",
-      "description": "Strategic recruitment for senior leadership positions."
+      "successfulPlacements": "Successful Placements",
+      "partnerCompanies": "Partner Companies",
+      "clientSatisfaction": "Client Satisfaction",
+      "yearsExperience": "Years of Experience"
     },
-    "professionalRecruitment": {
-      "title": "Professional Recruitment",
-      "description": "Talent acquisition across various industries and roles."
+    "solutions": {
+      "executiveSearch": {
+        "title": "Executive Search",
+        "description": "Strategic recruitment for senior leadership positions."
+      },
+      "professionalRecruitment": {
+        "title": "Professional Recruitment",
+        "description": "Talent acquisition across various industries and roles."
+      },
+      "careerDevelopment": {
+        "title": "Career Development",
+        "description": "Specialized guidance for career advancement."
+      }
     },
-    "careerDevelopment": {
-      "title": "Career Development",
-      "description": "Specialized guidance for career advancement."
-    }
+    "ctaTitle": "Ready to Transform Your Career or Team?",
+    "ctaSubtitle": "Let's discuss how Madil can help you achieve your goals",
+    "schedule": "Schedule a Consultation"
   },
-  "ctaTitle": "Ready to Transform Your Career or Team?",
-  "ctaSubtitle": "Let's discuss how Madil can help you achieve your goals",
-  "schedule": "Schedule a Consultation"
-},
   "about": {
     "heroTitle": "About Us",
     "heroSubtitle": "We are career architects, connecting exceptional talent with visionary companies.",
@@ -85,27 +85,31 @@
     "ctaTitle": "Ready to Get Started?",
     "ctaSubtitle": "Let's discuss how we can help you achieve your goals",
     "schedule": "Schedule a Consultation",
-    "learnMore": "Learn More",
+    "community": {
+      "title": "TECH Community",
+      "description": "Join our TECH community and become part of an innovative group of professionals.",
+      "buttonText": "Access the Community"
+    },
     "services": {
       "executiveSearch": {
         "title": "Executive Search",
-        "description": "Specialized recruitment for senior leadership and executive positions across industries."
+        "description": "Specialized recruitment for senior leadership positions."
       },
       "talentAcquisition": {
         "title": "Talent Acquisition",
-        "description": "Comprehensive recruitment solutions for building high-performing teams."
+        "description": "Comprehensive recruitment solutions for high-performing teams."
       },
       "careerCoaching": {
         "title": "Career Coaching",
-        "description": "Professional guidance for career development and advancement strategies."
+        "description": "Professional guidance for career development strategies."
       },
       "hrConsulting": {
         "title": "HR Consulting",
-        "description": "Strategic HR solutions to optimize your organization's human capital."
+        "description": "Strategic HR solutions to optimize your organization."
       },
       "industrySpecialization": {
         "title": "Industry Specialization",
-        "description": "Focused recruitment for technology, finance, healthcare, and more."
+        "description": "Focused recruitment for tech, finance, healthcare, and more."
       },
       "leadershipDevelopment": {
         "title": "Leadership Development",
@@ -154,36 +158,6 @@
         "role": "CTO",
         "company": "TechVision Inc.",
         "content": "Madil helped us find exceptional talent that transformed our engineering team. Their understanding of our technical needs and company culture was impressive."
-      },
-      "michael": {
-        "name": "Michael Chen",
-        "role": "Director of Operations",
-        "company": "Global Solutions",
-        "content": "The career mentorship program provided invaluable guidance for my professional development. I highly recommend their services to anyone looking to advance their career."
-      },
-      "emily": {
-        "name": "Emily Rodriguez",
-        "role": "Frontend Developer",
-        "company": "Innovation Corp",
-        "content": "Working with Madil has significantly improved our hiring process. Their attention to detail and quick response time make them stand out from other recruiters."
-      },
-      "leah": {
-        "name": "Leah Park",
-        "role": "Senior Developer",
-        "company": "CodeCraft",
-        "content": "Thanks to Madil's career coaching, I successfully transitioned into a senior role. Their insights and support were instrumental in my career growth."
-      },
-      "lisa": {
-        "name": "Lisa Thompson",
-        "role": "CEO",
-        "company": "StartUp Ventures",
-        "content": "Madil's executive search services helped us build a world-class leadership team. Their network and professional approach exceeded our expectations."
-      },
-      "james": {
-        "name": "James Wilson",
-        "role": "Product Manager",
-        "company": "Future Tech",
-        "content": "The personalized approach and deep industry knowledge made my job search experience exceptional. I found my dream role through Madil."
       }
     }
   },
