@@ -61,39 +61,43 @@ const Home = () => {
             muted
             loop
             playsInline
-            className="absolute top-0 left-0 w-full h-full object-cover"
+            className="absolute top-0 left-0 w-full h-full object-cover z-0"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60 z-0" />
 
           <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, ease: "easeOut" }}
-              className="space-y-8"
-            >
-              <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white drop-shadow-2xl tracking-tight">
-                {t("home.heroTitle")}
-              </h1>
-              <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
-                {t("home.heroSubtitle")}
-              </p>
-            </motion.div>
-          </div>
-
-
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="space-y-8"
+          >
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white drop-shadow-2xl tracking-tight">
+              {t("home.heroTitle")}
+            </h1>
+            <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
+              {t("home.heroSubtitle")}
+            </p>
+            <div className="flex flex-col sm:flex-row gap-6 justify-center mt-12">
+              <Link
+                to="/contact"
+                className="group bg-white text-blue-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-blue-50 transform hover:scale-105 transition-all duration-300 flex items-center justify-center shadow-lg hover:shadow-xl"
+              >
+                {t("home.getStarted")}
+                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              </Link>
+              <Link
+                to="/services"
+                className="group border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white/10 backdrop-blur-sm transition-all duration-300 flex items-center justify-center"
+              >
+                {t("home.ourServices")}
+              </Link>
+            </div>
+          </motion.div>
+        </div>
           <BouncingIcon />
           </section>
-          {/* <motion.div
-            animate={{ y: [0, 10, 0] }}
-            transition={{ duration: 2, repeat: Infinity }}
-            className="absolute bottom-16 left-8/2 transform -translate-x-[85%]"
-          >
-            <div className="flex items-center justify-center h-12 w-12">
-              <ChevronDown className="h-8 w-8 text-white animate-bounce" />
-            </div>
-          </motion.div> */}
-
+      
         {/* Partners Section */}
         <section className="relative bg-gradient-to-b from-gray-50 to-white overflow-hidden">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">

@@ -9,13 +9,13 @@ interface BouncingIconProps {
 }
 
 const BouncingIcon = ({
-  className = "absolute bottom-16 left-4/2 transform -translate-x-4/2",
+  className = "absolute bottom-20 left-[48%] transform -translate-x-1/2",
   icon: Icon = ChevronDown,
   color = "text-white",
 }: BouncingIconProps) => {
   const [isVisible, setIsVisible] = useState(true);
 
-  //monitorar o scroll
+  // Monitorar o scroll
   useEffect(() => {
     const handleScroll = () => {
       setIsVisible(window.scrollY <= 50);
