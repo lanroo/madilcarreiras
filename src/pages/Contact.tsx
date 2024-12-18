@@ -2,8 +2,15 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Send, CheckCircle, XCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import ContactMap from '../components/ContactMap';
 
-const ContactInfo = ({ icon: Icon, title, content }: { icon: any; title: string; content: string }) => (
+interface ContactInfoProps {
+  icon: React.ComponentType<any>;
+  title: string;
+  content: string;
+}
+
+const ContactInfo: React.FC<ContactInfoProps> = ({ icon: Icon, title, content }) => (
   <motion.div
     whileHover={{ scale: 1.05 }}
     className="relative bg-white/80 backdrop-blur-xl p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300"
@@ -20,7 +27,7 @@ const ContactInfo = ({ icon: Icon, title, content }: { icon: any; title: string;
   </motion.div>
 );
 
-const Contact = () => {
+const Contact: React.FC = () => {
   const { t, i18n } = useTranslation();
   const [formData, setFormData] = useState({
     name: '',
@@ -37,21 +44,21 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      await new Promise((resolve) => setTimeout(resolve, 1500)); 
+      await new Promise((resolve) => setTimeout(resolve, 1500));
       setStatus('success');
     } catch (error) {
       setStatus('error');
     }
   };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
     });
   };
 
-  const isPortuguese = i18n.language.startsWith('pt'); 
+  const isPortuguese = i18n.language.startsWith('pt');
 
   return (
     <div className="relative min-h-screen bg-gradient-to-br from-blue-50 via-white to-gray-100 overflow-hidden">
@@ -132,7 +139,7 @@ const Contact = () => {
                       className="w-full p-3 mt-1 border rounded-lg focus:ring focus:ring-blue-300"
                     >
                       <option value="Pessoa Física">Pessoa Física</option>
-                      <option value="CNPJ">CNPJ</option>
+                      <option value="CNPJ">Empresa</option>
                     </select>
                   </div>
                 )}
@@ -166,7 +173,6 @@ const Contact = () => {
                   </div>
                 </div>
 
-                {/* Empresa (somente para CNPJ e em PT) */}
                 {isPortuguese && formData.type === 'CNPJ' && (
                   <div>
                     <label htmlFor="company" className="block text-sm font-medium text-gray-700">
@@ -209,6 +215,8 @@ const Contact = () => {
           </motion.div>
         </div>
       </section>
+
+     
     </div>
   );
 };
