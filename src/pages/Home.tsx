@@ -1,13 +1,15 @@
 import { motion, AnimatePresence } from "framer-motion";
-import { ArrowRight, Target, Users, Trophy, Building2, BarChart, ChevronDown } from "lucide-react";
+import { ArrowRight, Target, Users, Trophy, Building2, BarChart } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import PartnersSlider from "../components/PartnersSlider";
+import BouncingIcon from "../components/BouncingIcon";
 
 const Home = () => {
   const { t } = useTranslation();
 
-    const achievements = [
+  
+  const achievements = [
     {
       icon: Users,
       value: "2,000+",
@@ -76,25 +78,13 @@ const Home = () => {
               <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
                 {t("home.heroSubtitle")}
               </p>
-              <div className="flex flex-col sm:flex-row gap-6 justify-center mt-12">
-                <Link
-                  to="/contact"
-                  className="group bg-white text-blue-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-blue-50 transform hover:scale-105 transition-all duration-300 flex items-center justify-center shadow-lg hover:shadow-xl"
-                >
-                  {t("home.getStarted")}
-                  <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                </Link>
-                <Link
-                  to="/services"
-                  className="group border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white/10 backdrop-blur-sm transition-all duration-300 flex items-center justify-center"
-                >
-                  {t("home.ourServices")}
-                </Link>
-              </div>
             </motion.div>
           </div>
 
-          <motion.div
+
+          <BouncingIcon />
+          </section>
+          {/* <motion.div
             animate={{ y: [0, 10, 0] }}
             transition={{ duration: 2, repeat: Infinity }}
             className="absolute bottom-16 left-8/2 transform -translate-x-[85%]"
@@ -102,11 +92,7 @@ const Home = () => {
             <div className="flex items-center justify-center h-12 w-12">
               <ChevronDown className="h-8 w-8 text-white animate-bounce" />
             </div>
-          </motion.div>
-
-
-
-        </section>
+          </motion.div> */}
 
         {/* Partners Section */}
         <section className="relative bg-gradient-to-b from-gray-50 to-white overflow-hidden">
