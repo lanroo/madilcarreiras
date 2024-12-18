@@ -40,10 +40,10 @@ html {
   background-size: 24px 24px;
 }
 /* Contato Title margin */
-.max-w-3xl.mx-auto {
+/* .max-w-3xl.mx-auto {
   margin-top: 3rem;
   margin-bottom: -5rem;
-}
+} */
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {
