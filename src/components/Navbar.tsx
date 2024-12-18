@@ -137,7 +137,10 @@ const Navbar = () => {
                 alt="Logo"
                 className="h-12 w-12 object-cover rounded-lg"
               />
-              <span className="text-2xl font-bold text-blue-600">Madil</span>
+              <span className="text-2xl font-bold" style={{ color: '#3e4efb' }}>
+                Madil
+              </span>
+
             </Link>
           </motion.div>
 

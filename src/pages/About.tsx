@@ -31,19 +31,22 @@ const About = () => {
         </div>
       </section>
 
-      {/* Stats Section */}
       <section
-        className="bg-cover bg-fixed py-20"
+        className="relative bg-cover bg-fixed py-20"
         style={{
           backgroundImage: "url('https://www.comececomopedireito.com.br/blog/wp-content/uploads/2022/08/hr-tech-1280x530.jpg')",
         }}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        {/* Overlay escura */}
+        <div className="absolute inset-0 bg-black opacity-40"></div>
+
+        {/* Conteúdo principal */}
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {[
             { value: "500+", label: t("about.stats.successfulPlacements") },
             { value: "95%", label: t("about.stats.retentionRate") },
             { value: "200+", label: t("about.stats.partnerCompanies") },
-            { value: "15+", label: t("about.stats.yearsExperience") },
+            { value: "7+", label: t("about.stats.yearsExperience") },
           ].map((stat, index) => (
             <motion.div
               key={index}
@@ -59,6 +62,7 @@ const About = () => {
           ))}
         </div>
       </section>
+
 
       {/* Values Section */}
       <section className="bg-gray-50 py-20">
